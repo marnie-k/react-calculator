@@ -1,6 +1,6 @@
-
+import Inputs from './components/inputs';
+import Title from './components/title';
 import './App.css';
-import './components/title'
 
 function App() {
   return (
@@ -8,10 +8,6 @@ function App() {
       <header className="App-header">
         <div>< Title /> </div>
         <div>< Inputs /></div>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      
       </header>
     </div>
   );

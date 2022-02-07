@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -15,5 +13,37 @@
   color: white;
 }
 
+.Title{
+  color:rgb(236, 233, 58);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.Inputs [name=number]{
+  border: 3px solid rgb(148, 192, 133);
+  border-radius: 4px;
+  margin: 5px;
+  width: 175px;
+  font-family: monospace;
+  color:rgb(236, 233, 58);
+  background-color: rgb(123, 97, 147);
+  font-weight: bold;
+}
 
+.Inputs [name=answer]{
+  width: 45px;
+  margin: 5px;
+  border: 3px solid rgb(45, 217, 217);
+  border-radius: 4px;
+  background-color: rgb(139, 175, 104);
+  color:azure;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.Error{
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 5px;
+  font-size: medium;
+}
